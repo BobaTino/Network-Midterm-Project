@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Profiler Dashboard</title>
+</head>
+<body>
+    <h1>IoT Device Activity Dashboard</h1>
+
+    {% for ip, data in devices.items() %}
+        <div style="border:1px solid black; padding:10px; margin:10px;">
+            <h2>{{ ip }}</h2>
+
+            <p><b>MAC:</b> {{ data.mac }}</p>
+            <p><b>First Seen:</b> {{ data.first_seen }}</p>
+
+            <p><b>Protocols:</b> {{ data.protocols }}</p>
+            <p><b>Connections:</b> {{ data.connections }}</p>
+            <p><b>Domains:</b> {{ data.domains }}</p>
+
+            <p><b>Geo Info:</b></p>
+            <ul>
+                {% for g in data.geo %}
+                    <li>{{ g.ip }} - {{ g.info.country }}, {{ g.info.city }} ({{ g.info.isp }})</li>
+                {% endfor %}
+            </ul>
+
+            {% if data.alerts %}
+                <p style="color:red;"><b>Alerts:</b> {{ data.alerts }}</p>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+</body>
+</html>

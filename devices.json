@@ -1,0 +1,167 @@
+{
+    "192.168.1.42": {
+        "mac": "6a:45:e6:64:e7:dd",
+        "first_seen": "2026-04-03 11:08:20.533937",
+        "connections": [
+            "239.255.255.250"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.1": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:07:24.555294",
+        "connections": [
+            "192.168.1.255",
+            "239.255.255.250",
+            "224.0.0.251",
+            "255.255.255.255"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [
+            "_services._dns-sd._udp.local.",
+            "_teamviewer._tcp.local.",
+            "_http._tcp.local.",
+            "_meshcop._udp.local.",
+            "_airplay._tcp.local."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.144": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:07:28.916146",
+        "connections": [
+            "224.0.0.251"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [
+            "_mieleathome._tcp.local."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.26": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:07:26.726609",
+        "connections": [
+            "224.0.0.251",
+            "239.255.255.250",
+            "192.168.1.42",
+            "255.255.255.255"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [
+            "lb._dns-sd._udp.local.",
+            "[LG] webOS TV QNED80UQA._airplay._tcp.local.",
+            "26.1.168.192.in-addr.arpa."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.44": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:07:31.632013",
+        "connections": [
+            "224.0.0.251",
+            "192.168.1.255",
+            "224.0.0.252",
+            "255.255.255.255",
+            "224.0.0.22",
+            "239.255.255.250"
+        ],
+        "protocols": [
+            "Other",
+            "UDP"
+        ],
+        "domains": [
+            "_ipp._tcp.local.",
+            "_uscans._tcp.local.",
+            "0._teamviewer._tcp.local.",
+            "HP LaserJet MFP M234dw (4ED3DE)._ipp._tcp.local."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.239": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:09:35.602713",
+        "connections": [
+            "224.0.0.251"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.22": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:08:21.654263",
+        "connections": [
+            "239.255.255.250"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.200": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:09:30.521294",
+        "connections": [
+            "224.0.0.251"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [
+            "_sense_rpc_service._udp.local."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "192.168.1.33": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:03:25.040888",
+        "connections": [
+            "224.0.0.22",
+            "224.0.0.251"
+        ],
+        "protocols": [
+            "Other",
+            "UDP"
+        ],
+        "domains": [
+            "_homekit._tcp.local."
+        ],
+        "geo": [],
+        "alerts": []
+    },
+    "0.0.0.0": {
+        "mac": null,
+        "first_seen": "2026-04-03 11:09:32.067782",
+        "connections": [
+            "255.255.255.255"
+        ],
+        "protocols": [
+            "UDP"
+        ],
+        "domains": [],
+        "geo": [],
+        "alerts": []
+    }
+}
