@@ -47,3 +47,7 @@ def detect_anomaly(device):
         alerts.append("High external communication")
 
     return alerts
+
+def add_alert(device, message):
+    if message not in device["alerts"]:
+        device["alerts"].append(message)
